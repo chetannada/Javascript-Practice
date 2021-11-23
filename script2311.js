@@ -75,7 +75,7 @@ for(let i=1; i<=number; i++){
 console.log(string);
 
 
-// Half Triangle star pattern
+// Half or Right Triangle star pattern
 let numberValue = 5;
 let stringValue = '';
 for(let i=1; i<=numberValue; i++){
@@ -100,3 +100,31 @@ for(let i=1; i<=numberSquare; i++){
   stringSquare += '\n';
 }
 console.log(stringSquare);
+
+
+// Half or Left Triangle Pattern 
+let numberleft = 5;
+let stringleft = '';
+for(let i=1; i<=numberleft; i++){
+  for(let j=1; j<=i; j++){
+    stringleft += '*';
+  }
+  for(let k=1; k<= numberleft -i; k++){
+    stringleft += ' ';
+  }
+  stringleft += '\n';
+}
+console.log(stringleft);
+
+
+// Rectangle star pattern 
+let numberRectangleRow = 3;
+let numberRectangleColumn = 8;
+let stringRectangle = '';
+for(let i=1; i<=numberRectangleRow; i++){
+  for(let j=1; j<= numberRectangleColumn; j++){
+    stringRectangle += '*';
+  }
+  stringRectangle += '\n';
+}
+console.log(stringRectangle);
