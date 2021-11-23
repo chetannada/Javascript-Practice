@@ -128,3 +128,17 @@ for(let i=1; i<=numberRectangleRow; i++){
   stringRectangle += '\n';
 }
 console.log(stringRectangle);
+
+// Day 3: Arrays
+function getSecondLargest(nums) {
+  let secondLargestNumber = nums;
+  secondLargestNumber.sort((a,b) => a-b);
+  let result = [];
+  for(let i=secondLargestNumber.length - 1; i>=0; i--){
+    if(secondLargestNumber[i] > secondLargestNumber[i -1]){
+        result.push(secondLargestNumber[i -1]);
+    }
+  }
+  return result[0];
+}
+console.log(getSecondLargest([1,6,6,7,7,8,8]));
