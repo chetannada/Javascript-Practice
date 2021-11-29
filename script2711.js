@@ -29,12 +29,9 @@ async function fetchData(url) {
 }
 fetchData(apiUrl);
 function getData(data) {
-    for(let index in data){
-        for(index; index<=5; index++){
-            console.log(`Id: ${data[index].id}, Title: ${data[index].title}`);
-            break;
+        for(let index = 0; index<2; index++){
+            console.log(`Id: ${data[index].id}, Title: ${data[index].title}`);   
         }
-    }
 }
 
 
