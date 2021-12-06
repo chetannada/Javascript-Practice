@@ -1,24 +1,34 @@
-/* Day 8: Create a Button Hackerrank */
-/* #btn{
-    width: 96px;
-    height: 48px;
-    font-size: 24px;
-} */
-
-/* Day 8: Buttons Container Hackerrank */
-/* #btns {
-  width: 75%;
+/* Day 9: Binary Calculator */
+body {
+  width: 33%;
 }
-#btn1,
-#btn2,
-#btn3,
-#btn4,
-#btn5,
-#btn6,
-#btn7,
-#btn8,
-#btn9 {
-  width: 30%;
+#res {
+  background-color: lightgray;
+  border: solid;
   height: 48px;
-  font-size: 24px;
-} */
+  font-size: 20px;
+}
+button {
+  width: 25%;
+  height: 36px;
+  font-size: 18px;
+  margin: 0px;
+  float: left;
+}
+#btn0,
+#btn1 {
+  background-color: lightgreen;
+  color: brown;
+}
+#btnClr,
+#btnEql {
+  background-color: darkgreen;
+  color: white;
+}
+#btnSum,
+#btnSub,
+#btnMul,
+#btnDiv {
+  background-color: black;
+  color: red;
+}
