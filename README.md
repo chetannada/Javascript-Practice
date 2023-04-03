@@ -7,9 +7,9 @@ The `repository cover` a variety of topics such as data types, loops, functions,
 To get started with the exercises, you need to have a basic understanding of `JavaScript syntax and concepts`. You can use any `code editor or IDE` of your choice to work on the `javascript code snippet.
 
 ## All Javascript Code snippet
-## 📚 [_Folder 1_](./2021_year/)
-## 📚 [_Folder 2_](./2022_year/)
-## 📚 [_Folder 3_](./2023_year/)
+- 📚 [_Folder 1_](./2021_year/)
+- 📚 [_Folder 2_](./2022_year/)
+- 📚 [_Folder 3_](./2023_year/)
 
 ## 🔥 Clone this Repository
 You need to write the following commands on the terminal screen(in vscode) so that you can run this project locally.
