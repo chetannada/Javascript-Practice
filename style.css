@@ -1,0 +1,41 @@
+body{
+    justify-content:center;
+    text-align:center;
+    align-items:center;
+    margin-top:15rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #34ADFF;
+    background-image: -webkit-linear-gradient(150deg, #34ADFF 35%, #4CBFFF 35%);
+}
+
+.sub-container{
+    font-size:20px;
+    margin:-10px;
+}
+
+.container
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #2a0d91 0%,
+    #7712e4 29%,
+    #810c33 67%,
+    #056669 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size:50px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
