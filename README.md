@@ -18,8 +18,22 @@ Go to the project directory
   cd Javascript-Practice
 ```
 
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
+This application should now be running on `localhost`. If you want to Fork repository and want to run locally, follow this guidelines [Fork and Clone Github Repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+
 ## ✨ Contributing
-If you found any `issues` with any code snippet or solutions, or if you have any suggestions for new exercises, feel free to open `an issue` or submit a `pull request`.
+If you found any `issues` with any code snippet or solutions, or if you have any suggestions for new exercises, feel free to open an `issue` or submit a `pull request.`
 
 ## 🔗 Let's Connect
 [![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chetannada)
