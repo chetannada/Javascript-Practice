@@ -2,22 +2,22 @@
 
 /**
  * Definition for singly-linked list.
- * class ListNode {
- *     val: number
- *     next: ListNode | null
- *     constructor(val?: number, next?: ListNode | null) {
- *         this.val = (val===undefined ? 0 : val)
- *         this.next = (next===undefined ? null : next)
- *     }
+ * function ListNode(val, next) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.next = (next===undefined ? null : next)
  * }
  */
+/**
+ * @param {ListNode} head
+ * @return {ListNode}
+ */
+var removeNodes = function (head) {
 
-function removeNodes(head: ListNode | null): ListNode | null {
     // initialize cur to the head of the linkedlist
-    let cur: ListNode | null = head;
+    let cur = head;
 
     // initialize array stack that will be used to store the nodes temporarily.
-    let stack: ListNode[] = [];
+    let stack = [];
 
     // Traverse the Linked List and Build Stack:
     //  loop iterates through the linked list
@@ -36,7 +36,7 @@ function removeNodes(head: ListNode | null): ListNode | null {
     }
 
     // Rebuild the Linked List:
-    let next: ListNode | null = null;
+    let next = null;
 
     // run loop until length of stack is greater than 0
     while (stack.length) {
