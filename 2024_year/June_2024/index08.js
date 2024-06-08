@@ -1,12 +1,17 @@
 // https://leetcode.com/problems/continuous-subarray-sum/description/
 
-function checkSubarraySum(nums: number[], k: number): boolean {
+/**
+ * @param {number[]} nums
+ * @param {number} k
+ * @return {boolean}
+ */
+var checkSubarraySum = function (nums, k) {
 
     // initialize hashmap for storing modulo with index
-    let map: Map<number, number> = new Map();
+    let map = new Map();
 
     // initialize preSum to 0
-    let preSum: number = 0;
+    let preSum = 0;
 
     // add key 0 and value -1 in map to check modulo 0 appear again or not
     map.set(0, -1);
@@ -18,7 +23,7 @@ function checkSubarraySum(nums: number[], k: number): boolean {
         preSum += nums[i];
 
         // find modulo of preSum to k
-        let modulo: number = preSum % k;
+        let modulo = preSum % k;
 
         // if map has modulo
         if (map.has(modulo)) {
