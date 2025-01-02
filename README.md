@@ -6,6 +6,7 @@ This repository contains `Leetcode DSA Solution using Javascript` and `Javascrip
 - 📚 [_Folder 2022_](./2022_year/)
 - 📚 [_Folder 2023_](./2023_year/)
 - 📚 [_Folder 2024_ ](./2024_year/)
+- 📚 [_Folder 2025_ ](./2025_year/)
 
 ## 🔥 Clone this Repository
 You need to write the following commands on the terminal screen (in vscode) so that you can run this project locally.
